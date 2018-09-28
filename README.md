@@ -14,6 +14,6 @@ Download the assessment, using Eclipse import the assessment as a maven project.
 
 ## Assessment Requirements
 
-1. Make '''Configuration''' class singleton. The Configuration class will read your configuration file that is in this case by default '''reference.conf''' and instantiates the variables.
-2. Implement '''FileReaderParse''' interface for two different file types: JSON and CSV. Check out '''subscriber.json''' and '''subscriber.csv''' for the format of each line. Each line is an input to the parseSubscriber method of '''FileReaderParser''' and converts it to an instance of '''Subscriber'''.
-3. A Strategy pattern is implemented for '''InputSource''' class that you can inject any implementation of '''FileReaderParser'''. Complete the assessment by applying Factory pattern to instantiate a '''FileReaderParser''' based on value of "type" given in the Configuration class.
+1. Make **Configuration** class singleton. The Configuration class will read your configuration file that is in this case by default **reference.conf** and instantiates the variables.
+2. Implement **FileReaderParse** interface for two different file types: JSON and CSV. Check out **subscriber.json** and **subscriber.csv** for the format of each line. Each line is an input to the parseSubscriber method of **FileReaderParser** and converts it to an instance of **Subscriber**.
+3. A Strategy pattern is implemented for **InputSource** class that you can inject any implementation of **FileReaderParser**. Complete the assessment by applying Factory pattern to instantiate a **FileReaderParser** based on value of "type" given in the Configuration class.
